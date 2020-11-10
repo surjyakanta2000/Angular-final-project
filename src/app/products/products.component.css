@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+h2
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.banner
+{
+    width: 100vw;
+    height: 40vh;
+    margin-bottom: 2px;
+    overflow: hidden;
+}
+.slide
+{
+    transition: .5s !important;
+    overflow: hidden;
+}
+.option
+{
+    border: 3px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.img-thumbnail:hover
+{
+    transform: scale(1.01);
+    background:rgb(240, 239, 239) !important;
+    cursor: pointer;
+}
+.carousel-item
+{
+    flex-direction: row;
+    overflow: hidden;
+}
+.carousel
+{
+    overflow: hidden;
+}
+body
+{
+    background: #90defb;
+background: linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+background: -webkit-linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+background: -moz-linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+}

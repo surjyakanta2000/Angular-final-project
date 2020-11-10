@@ -1,0 +1,39 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<div style="margin-top: 4rem;" class="container">
+    <div style="margin: 20px;align-items: center;" class="option row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+           <img src="{{mobileData.img}}" class="img-fluid">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+            <div class="card-header"><h4>{{mobileData.itemid}}</h4></div>
+            <div class="card-body">
+                <h3 class="text-success"><i class="fa fa-inr" aria-hidden="true"></i>{{mobileData.price}} </h3>
+                <p>
+                <span class="fa fa-star text-{{mobileData.rating}}"></span>
+                <span class="fa fa-star text-{{mobileData.rating}}"></span>
+                <span class="fa fa-star text-{{mobileData.rating}}"></span>
+                <span class="fa fa-star text-{{mobileData.rating4}}"></span>
+                <span class="fa fa-star text-{{mobileData.rating5}}"></span>
+                </p>
+                <li>Dress</li>
+                <li>Brand:Oxen </li>
+                <li>Build in pure cotton</li>
+                <li>type:Casuale</li>
+            </div>
+            <div style="align-items: center;" class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <button class="addbtn"><i class="fa fa-cart-arrow-down" style="padding: .05rem;"  aria-hidden="true"></i>ADD CART</button>
+             </div><br><br>
+             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+                <button class="buybtn"><i class="fa fa-bolt text-white" aria-hidden="true"style="padding: .05rem;"></i>BUY NOW</button>
+             </div>
+            </div>
+         </div>
+    </div>
+</div>
+</body>
+<router-outlet></router-outlet>
+

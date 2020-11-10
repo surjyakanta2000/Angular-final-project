@@ -1,0 +1,32 @@
+@media (max-width: 768px)
+{
+    .card-header
+    {
+        font-size: 30px !important;
+    }
+}
+.buybtn
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background: tomato;
+    width: 15rem;
+}
+.addbtn
+{
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    background:rgb(245, 245, 245);
+    width: 15rem !important;
+}
+body
+{
+    background: #90defb;
+background: linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+background: -webkit-linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+background: -moz-linear-gradient(160deg,#90defb 2%, #efb3ff 45%, #f6f67b 70%, #00ff00 110%);
+}
+img
+{
+    background: transparent;
+}

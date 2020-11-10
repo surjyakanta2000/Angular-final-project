@@ -1,0 +1,31 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+<img src="assets\banner3.jpg" class="banner  img-fluid">
+<hr>
+<br>
+<hr>
+<h2>TVs & Appliances</h2>
+<hr>
+<div style="margin: 2px;" class="row">
+    <div  style="margin: 2px;" class="row">
+        <div *ngFor="let mb of MobileArray" class="col-lg-3 col-md-6 col-sm-12 col-12">
+        <div class="card">
+            <img src="{{mb.img}}" class="img-fluid img-thumbnail">
+            <div class="card-body">
+                <span class="fa fa-star text-{{mb.rating}}"></span>
+                <span class="fa fa-star text-{{mb.rating}}"></span>
+                <span class="fa fa-star text-{{mb.rating}}"></span>
+                <span class="fa fa-star text-{{mb.rating4}}"></span>
+                <span class="fa fa-star text-{{mb.rating5}}"></span>
+                <h1 style="font-size: 1.3rem;font-weight: bold;" class="card-header d-block text-warning">Price: {{mb.price}}</h1>
+                <h1 style="font-size: 1.3rem;font-weight: bold;" class="btn card-header d-block bg-primary text-white" routerLink="./{{mb.itemid}}">Detail's</h1>
+            </div>
+        </div>
+        <br>
+    </div>
+</div>
+</div>
+<hr>
+</body>
