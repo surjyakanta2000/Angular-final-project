@@ -10,7 +10,7 @@ import { TvappdComponent } from './tvappd/tvappd.component';
 import { FashionComponent } from './fashion/fashion.component';
 import { FashiondetailsComponent } from './fashiondetails/fashiondetails.component';
 const routes: Routes = [
-  //{path:'**',redirectTo:'products'},
+  
   {path:'products',component:ProductsComponent},
   {path:'electronics',component:ElectronicsComponent},
   {path:'electronics/:itemid',component:ElectronicsdetailComponent},
@@ -18,7 +18,8 @@ const routes: Routes = [
   {path:'tvapp',component:TvappComponent},
   {path:'tvapp/:itemid',component:TvappdComponent},
   {path:"manwomen",component:FashionComponent},
-  {path:"manwomen/:itemid",component:FashiondetailsComponent}
+  {path:"manwomen/:itemid",component:FashiondetailsComponent},
+  {path:'**',redirectTo:'products'},
 ];
 
 @NgModule({
